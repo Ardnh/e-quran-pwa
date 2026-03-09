@@ -1,1 +1,1 @@
-export const SYNC_INTERVAL = 5 * 1000
+export const SYNC_INTERVAL = 5 * 60 * 1000

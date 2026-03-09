@@ -26,9 +26,9 @@ export default defineNuxtConfig({
         filename: 'sw.ts',
         strategies: 'injectManifest',
         manifest: {
-            name: 'My Nuxt App',
-            short_name: 'NuxtApp',
-            description: 'My awesome Nuxt PWA',
+            name: 'E QURAN ',
+            short_name: 'EQURAN',
+            description: 'My awesome E Quran',
             theme_color: '#ffffff',
             background_color: '#ffffff',
             display: 'standalone',
@@ -63,6 +63,6 @@ export default defineNuxtConfig({
         injectManifest: {
             globPatterns: ['**/*.{js,css,html,png,svg,ico}'],
         },
-        
+
     }
 })
